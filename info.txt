@@ -1,0 +1,14 @@
+﻿목표 : 연락처 프로그램 만들기
+
+개발방식 : rest API 방식
+
+포트구분 : 프론트엔드 - 3000, 백엔드 - 4000
+
+기술스택 : 프론트엔드 - React, 백엔드 - Nods & Express, DB - MySQL
+
+사용모듈 : 프론트엔드 - React, React-Router, Axios
+          백엔드 - express, cors, body-parser
+
+
+riahnrhyme@gmail.com
+developer@jolse.com

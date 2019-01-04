@@ -1,0 +1,111 @@
+* { margin: 0; padding: 0; }
+
+body { background-color: #c9e4f79c; color: #333333; }
+
+div { margin: 10px auto; }
+.App {
+  margin: 0 auto; width: 750px; padding: 5px 0 0; position: relative;
+  box-sizing: border-box; background-color: #fcfcfc;
+}
+.nav { height: 34px; text-align: center; line-height: 34px; }
+h1 {
+  height: 100px; line-height: 100px; text-align: center;
+  margin: 5px 0 20px; font-size: 35px;
+}
+a {
+  width: 72px; margin: 25px 55px; padding: 5px 10px; text-align: center;
+  text-decoration: none; color: inherit; font-size: 17px;
+}
+a:hover {
+  color: #427ba9;
+}
+a.active {
+  color: #fcfcfc;
+  background-color: #5ebde7;
+  transition-property: background-color, color;
+  transition: .5s;
+}
+hr { margin: 20px 5px; }
+.component {
+  width: 450px; margin: 65px auto 70px; padding: 25px 20px 35px;
+  /* width: 750px; margin: 30px auto; padding: 10px 20px 20px; */
+  box-sizing: border-box; text-align: center; border: solid .5px lightgray;
+}
+.Login, .Register {
+  padding: 0 0 25px;
+}
+h2 {
+  height: 70px; line-height: 70px; text-align: center;
+  font-size: 25px;
+}
+.Phone { width: 320px; margin: 0 auto; }
+/* .Phone { width: 700px; margin: 0 auto; } */
+.phoneList {
+  width: 320px;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  border: .5px solid gray;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  /* float: left; */
+}
+/* .phoneList::after{ clear: both;} */
+input {
+  height: 25px; margin: 3px 0; padding: 2px 4px 2px; vertical-align: middle;
+  /* border-radius: 2px; */
+}
+.phoneEl {
+  height: 25px; margin: 4px 0; padding: 2px; text-align: left;
+}
+.phoneInput {
+  width: 130px; box-sizing: border-box;
+}
+button {
+    background-color: #69a8dc;
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    width: 168.8px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+}
+button:hover {
+  background-color: #427ba9;
+}
+.phoneBtn {
+  width: 95px; height: 30px; padding: 5px;
+}
+.logout {
+  position: absolute; top: 10px; right: 10px; width: 80px; height: 32px;
+}
+.PhonePages a {
+  margin: 5px; padding: 3px 10px; box-sizing: border-box;
+}
+.PhonePages a:hover {
+  border: solid .3px #69a8dc;
+}
+.msg {
+  color: #2774b0;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.Footer {
+  margin: 0 auto; padding: 40px 0; box-sizing: border-box;
+  position: relative;
+  /* text-align: left; */
+  /* border-top: solid .5px #aca8a8; */
+  background-color: #94c3e9ba;
+  font-size: 12px;
+}
+.info {
+  position: absolute; right: 40px; top: 5px;
+}
+.portfolio {
+  position: absolute; left: 40px; top: 20px;
+  font-size: 16px; font-weight: bold;
+}
